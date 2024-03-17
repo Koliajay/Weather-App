@@ -1,0 +1,92 @@
+*
+{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.container
+{
+    height: 120vh;
+    width: 98vw;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-size: 100% 100%;
+    background-image: url("img/clouds.jpg");
+}
+.box
+{
+    width: 90%;
+    max-width: 470px;
+    background: linear-gradient(135deg ,aqua,blue);
+    margin: 100px  auto 0;
+    border-radius: 20px;
+    padding: 40px 35px;
+    text-align: center;
+    color: white;
+    box-shadow: 5px 10px 10px 5px rgb(71, 66, 66);
+    
+}
+.rain
+{
+    width: 280px;
+}
+.nav 
+{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.nav input
+{
+    background: #ebfffc;
+    border: 0;
+    outline: 0;
+    height: 60px;
+    border-radius: 10px;
+    padding: 10px 25px;
+    border-radius: 30px;
+    flex: 1;
+    margin-right: 16px;
+    font-size: 18px;
+}
+.nav button
+{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    border: 0;
+    outline: 0;
+    background:  #ebfffc;
+    cursor: pointer;
+    font-weight: 900;
+    font-size: 30px;
+}
+.img img
+{
+width: 170px;
+margin-top: 30px;
+}
+.col img
+{
+    width: 120px;
+}
+.details
+{
+    display: flex;
+    justify-content: space-between;
+}
+
+.weather h1
+ {
+ font-size: 50px;
+ font-weight: 800;
+}
+.weather h2
+ {
+ font-size: 45px;
+ font-weight: 400;
+ margin-top: -10px;
+}
